@@ -1,7 +1,6 @@
 package com.example.a62.presentation.ui.screen
 
 import androidx.compose.foundation.layout.*
-import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.SnackbarHost
@@ -15,10 +14,8 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import coil.compose.AsyncImage
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.a62.domain.model.Laureate
